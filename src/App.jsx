@@ -154,7 +154,7 @@ function App() {
               <div className="orbit orbit-a" /><div className="orbit orbit-b" />
               <div className="profile-card">
                 <div className="profile-tag"><Code2 size={15} /> DEV_PROFILE_01</div>
-                <img src="/images/profile.jpg" alt="Soma Sai Ganesh" />
+                <img src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Soma Sai Ganesh" />
                 <div className="profile-card-footer"><div><small>Based in</small><strong><MapPin size={13} /> {profile.location}</strong></div><span>9.2 CGPA</span></div>
               </div>
               <div className="floating-chip chip-a"><Zap size={14} /> .NET 8</div>

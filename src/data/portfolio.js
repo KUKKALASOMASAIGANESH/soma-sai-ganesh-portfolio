@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 export const profile = {
   name: "Kukkala Soma Sai Ganesh",
   shortName: "Soma Sai Ganesh",
@@ -8,7 +10,7 @@ export const profile = {
   phone: "+91 9392404445",
   github: "https://github.com/KUKKALASOMASAIGANESH",
   linkedin: "https://www.linkedin.com/in/soma-sai-ganesh/",
-  resume: "/resume.pdf",
+  resume: `${base}resume.pdf`,
   summary:
     "Computer Science and Engineering graduate specializing in Artificial Intelligence with hands-on experience in full-stack software development. Experienced with ASP.NET Core 8, .NET 8, PostgreSQL, JavaScript, HTML, CSS, Java, and AI-driven solutions."
 };
@@ -94,8 +96,8 @@ export const certifications = [
 ];
 
 export const photos = [
-  "/images/profile-outdoor.jpg",
-  "/images/profile-road.jpg",
-  "/images/profile-sunset.jpg",
-  "/images/profile-bike.jpg"
+  `${base}images/profile-outdoor.jpg`,
+  `${base}images/profile-road.jpg`,
+  `${base}images/profile-sunset.jpg`,
+  `${base}images/profile-bike.jpg`
 ];
